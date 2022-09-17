@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.7.8/dist/vue.js"></script>
+    <title>WEEK6_1</title>
+</head>
+<body>
+    <div id="website">
+        <form >
+            <p id="title"> SIGN IN</p>
+            <input type="Email" placeholder="Please enter the email in the box" v-model="Email">
+            <p>{{Email}}</p>
+            <input type="Password" placeholder="Please Enter the Password in the box" v-model="Password">
+            <p>{{Password}}</p>
+            <button type="submit" @click=>Sign In</button>
+          <p> By clicking on the sign in page you can access the website</p>
+        </form>
+    </div>
+    
+    <br>
+    <br>
+</body>
+<script src="week6_1.js"></script>
+</html>
